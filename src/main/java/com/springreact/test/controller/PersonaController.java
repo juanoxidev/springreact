@@ -12,8 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.springreact.test.entity.Persona;
 import com.springreact.test.service.PersonaService;
 
+
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/personas")
 public class PersonaController {
 
 	@Autowired
